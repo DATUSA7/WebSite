@@ -28,7 +28,7 @@ scene.add(sceneGroup1, sceneGroup2, sceneGroup3, sceneGroup4, sceneGroup5);
 
 // Placeholder para visualización (puedes borrar esto al poner tus escenas)
 const material = new THREE.MeshStandardMaterial({ color: 0x00ffcc, wireframe: true });
-sceneGroup1.add(new THREE.Mesh(new THREE.TorusGeometry(1, 0.4, 16, 60), material));
+sceneGroup1.add(new THREE.Mesh(new THREE.TorusGeometry(0.8, 0.4, 16, 60), material));
 sceneGroup2.add(new THREE.Mesh(new THREE.ConeGeometry(1, 2, 32), material));
 sceneGroup3.add(new THREE.Mesh(new THREE.BoxGeometry(1.5, 1.5, 1.5), material));
 sceneGroup4.add(new THREE.Mesh(new THREE.IcosahedronGeometry(1), material));
