@@ -23,13 +23,14 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0 10%;
   position: relative;
   z-index: 1;
 }
 
 .content {
-  max-width: 600px;
+  max-width: 500px;
 }
 
 h1 { font-size: 6rem; color: #00ffcc; font-weight: 900; }
